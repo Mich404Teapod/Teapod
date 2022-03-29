@@ -7,5 +7,6 @@ echo What file do you want to run?
 set/p "file=>"
 
 ren %file% main.zip
+ping localhost -n 2
 start main.zip\main.exe
 ren main.zip %file%
