@@ -8,5 +8,5 @@ set/p "file=>"
 
 ren %file% main.zip
 ping localhost -n 2
-start main.zip\main.exe
+start main\terminal\main.exe
 ren main.zip %file%
