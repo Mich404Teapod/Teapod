@@ -1,0 +1,24 @@
+CREATE TABLE `Entity` (
+  `Field` PK,
+  `Field` Type,
+  FOREIGN KEY (`Field`) REFERENCES `Entity`(`Field`)
+);
+
+CREATE TABLE `Entity` (
+  `version` file.version,
+  `Name` learn datascience,
+  `teapod ?` Yes,
+  `language` data sciencence,
+  `root/window/name` teapod,
+  FOREIGN KEY (`Name`) REFERENCES `Entity`(`Field`)
+);
+
+CREATE TABLE `Programming Oriented Object` (
+  `Language` Diff,
+  `extension` .diff,
+  `other languages in` data science,
+  `exemples` minecraft,
+  FOREIGN KEY (`exemples`) REFERENCES `Programming Oriented Object`(`exemples`),
+  FOREIGN KEY (`exemples`) REFERENCES `Programming Oriented Object`(`exemples`)
+);
+
